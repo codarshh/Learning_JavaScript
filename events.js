@@ -81,8 +81,9 @@ let inp = document.querySelector("input");
         if(d.data!==null){  
         console.log(d.data);
         }
-    });// isme pehla adta function ke adr ka attribue hai orr dusra wala data retrive ke rhat hai jo bhi input denge wo dikhayega console mein hum log first wala data ke place pr koi bhi name de sakte hai 
+    });
 
+    // isme pehla adta function ke adr ka attribue hai orr dusra wala data retrive ke rhat hai jo bhi input denge wo dikhayega console mein hum log first wala data ke place pr koi bhi name de sakte hai 
 
  //   ***   CHANGE   ***
  
@@ -97,4 +98,10 @@ let inp = document.querySelector("input");
     sel.addEventListener("change", function (dets) {
     device.textContent = `${ dets.target.value} Device Selrcted`
 });
+
+// Mouse Events :- click, dblclick, contextmenu, mousedown, mouseup, mouseenter, mouseleave, mousemove, mouseover, mouseout
+// Keyboard Events :- keydown, keyup, keypress
+// Form Events :- submit, change, input, focus, blur, reset
+// Window & Document Events :- load, DOMContentLoaded, resize, scroll, unload
+// Touch & Drag Events :- touchstart, touchmove, touchend, dragstart, dragover, drop
 
